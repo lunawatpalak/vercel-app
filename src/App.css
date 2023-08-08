@@ -1,0 +1,373 @@
+
+   h4, h5{
+  margin: 0px; 
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+h1{
+  margin: 0px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 20px;
+  font-weight: 800;
+  color: #181818;
+  line-height: 30px;
+  margin: 0px;
+}
+h3{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #fff !important ;
+  margin: 0px;
+}
+h5{
+  font-size: 16px;
+  font-weight: 400;
+  color: #181818;
+  line-height: 30px;
+  margin: 0px;
+}
+#topnav{
+  padding: 20px;
+  background-color: #f6fcff;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#topnav li{
+  display: inline;
+  padding: 20px;
+}
+
+
+.menu{
+  color: #181818;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+.menu:hover{
+  color:rgb(207, 46, 46);
+  cursor: pointer;
+}
+
+.logo{
+  width:170px;
+  height: 88px;
+}
+
+.call_btn{
+  background-color: #ef6b64;
+  animation: example 5s ease-in-out 0s infinite;
+  color: #fff;
+  padding: 8px;
+  border-radius: 100%;
+
+}
+.black_btn:hover{
+  background-color: #ef6b64;
+  text-decoration: none;
+}
+
+.black_btn a{
+  color: #fff;
+  text-decoration: none;
+
+}
+@keyframes example {
+  0% {transform:scale(1);}
+  50% {transform:scale(1.25);}
+  100% {transform:scale(1);}
+}
+
+.black_btn{
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 50px;
+}
+.text{
+  color: #181818;
+  font-size: 24px;
+  font-weight:800;
+  line-height: 27px;
+}
+
+
+.bg-mask {
+  background-image: url(https://thefuturetech.in/whatsapp-marketing-software/wp-content/uploads/2023/02/bg-top-banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+}
+p{
+  margin: 0px;
+}
+
+.flexbox div:first-child{
+  width: 50%;
+}
+.flexbox div:last-child{
+  width:auto;
+}
+.flexbox2{
+  display: flex;
+  justify-content: space-evenly;
+  gap:10px;
+}
+
+.flexbox2 > p:first-child{
+  width:auto;
+}
+.flexbox2 > div:first-child{
+  width:auto;
+}
+.flexbox2 > div:last-child{
+  width:50%;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 50%;
+}
+
+.back_btn{
+  outline: none;
+  background-color: #b9221a;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  width: fit-content;
+  border-radius: 10px;
+}
+.back_btn:hover{
+  background-color: #000;
+}
+
+.section{
+  background-color: #f6fcff;
+}
+.images{
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 0px #0000004d;
+  margin-bottom: 20px;
+}
+
+.sub_section{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #a7a7a7;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.title1{
+  font-size: 40px;
+  color: #181818;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+.bg-image {
+  background-image: linear-gradient(#ef6b64 50%, #fff 50%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100vhpx;
+  width: 100vw;
+}
+
+.main_item{
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px #00000017;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  min-height: 200px;
+  width: 80%;
+  align-items: center;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+
+}
+
+.pricing{
+  background: #fff;
+  border: 10px solid #fe6e67;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 25px 25px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span{
+  color: #aa3334;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.pricing_items{
+  color: #081330;
+  opacity: 0.68;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  border-bottom: 0.5px solid #18181875;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+input {
+  outline: none;
+  display: flex;
+  padding: 10px 10px;
+  border:0 solid #000;
+  border-bottom: 2px solid #000;
+  justify-content: space-between;
+  background: none;
+  gap: 10px;
+}
+
+.dropdown {
+  outline: none;
+  display: flex;
+  border:0 solid #000;
+  border-bottom: 2px solid #000;
+  padding: 10px 10px;
+  justify-content: space-between;
+  gap: 10px;
+  background: none;
+}
+.highlight{
+  color: #000;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+.highlight:hover a {
+  color: #ef6c54 !important;
+
+}
+.books{
+  color: #181818;
+  font-size: 22px;
+  font-weight:800;
+  line-height: 27px;
+}
+
+.items{
+  color: #ef6c54;
+}
+.contact_text{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-flex;
+}
+
+.social{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #999999;
+  color: #000;
+}
+
+.social:hover{
+  background-color: #ef6c54;
+  color: #fff;
+}
+
+input::placeholder{
+  color: #000;
+}
+.title2{
+  color: #ef6c54;
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+.address{
+  background: #fff;
+  box-shadow: 10px 10px 58px 00000012;
+  border-radius: 30px;
+  padding: 30px;
+}
+.contact-details{
+  color: #1c1c1c;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  display: inline-flex;
+  margin-bottom: 10px;
+  list-style: none !important;
+  text-decoration: none;
+}
+.texbook{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  background-color: #fff;
+  box-shadow: 10px 10px 15px 00000017;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 20px 10px 10px 20px;
+}
+.test{
+  color: #aa3334;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 2.13px;
+}
+.dynamic{
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #fe6e67;
+  line-height: 35px;
+  font-weight: bold;
+  min-width:max-content;
+}
+.sub_text{
+  color: #181818;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
